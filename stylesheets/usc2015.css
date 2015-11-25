@@ -1,3 +1,4 @@
+
 .color-background{
 	color: #fff;
 	text-align: center;
@@ -17,6 +18,12 @@
 	width:400px;
 	text-align:left;
 }
+
+@media screen and (max-width: 400px) {
+	.page-block ul{
+		width:100%;
+		text-align:left;
+	}}
 .page-block a{
 	color:#999;	
 }
@@ -28,7 +35,7 @@
 	padding-top: 200px;
 	padding-bottom:300px;
 }
-iframe{
+	iframe{
 		frameborder:0;
 	}
 @media screen and (min-width: 992px) {
@@ -41,17 +48,17 @@ iframe{
 		height:450px;
 	}}
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	img{
 		width:750px;
 		height:auto;
 	}
 	iframe{
-		width:100%;
+		width:750px;;
 		height:400px;
 	}}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	img{
 		width:100%;
 		height:auto;
