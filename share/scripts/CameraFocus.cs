@@ -9,7 +9,8 @@ public class CameraFocus : MonoBehaviour {
 	
 	}
 	
-	// Update is called once per frame 這區塊的程式碼會一直一直重覆的執行，直到離開程式碼存在的場景
+	// Update is called once per frame 
+	//這區塊的程式碼會一直一直重覆的執行，直到離開程式碼存在的場景
 	void Update () 
 	{
 		//Detect tap to trigger refocus
